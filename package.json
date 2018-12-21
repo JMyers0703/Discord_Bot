@@ -16,11 +16,11 @@
     "tumblr": "^0.4.1",
     "xmldom": "^0.1.27",
     "xpath": "0.0.27",
-    "youtube-search": "^1.1.1"
+    "youtube-search": "^1.1.3"
   },
   "devDependencies": {},
   "scripts": {
-    "start": "node build/bot.js",
+    "start": "node bot.js"
   },
   "keywords": [],
   "author": "",

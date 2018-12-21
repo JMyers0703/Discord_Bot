@@ -1,13 +1,1 @@
-{"token":process.env.TOKEN
- ,"prefix":"~"
- ,"CSE_ID":process.env.CSE_ID
- ,"API_KEY":process.env.API_KEY
- ,"RECIPE_ID_1":process.env.RECIPE_ID_1
- ,"RECIPE_KEY_1":process.env.RECIPE_KEY_1
- ,"RECIPE_ID_2":process.env.RECIPE_ID_2
- ,"RECIPE_KEY_2":process.env.RECIPE_KEY_2
- ,"YOUTUBE_KEY":process.env.YOUTUBE_KEY
- ,"TUMBLR_CONS_KEY":process.env.TUMBLR_CONS_KEY
- ,"TUMBLR_CONS_SECRET":process.env.TUMBLR_CONS_SECRET
- ,"TUMBLR_TOKEN":process.env.TUMBLR_TOKEN
- ,"TUMBLR_TOKEN_SECRET":process.env.TUMBLR_TOKEN_SECRET}
+{"prefix":"~"}

@@ -63,7 +63,7 @@ async function search(config, client, msg, args) {
 }
 
 async function image(config, client, msg, args) {
-   const imgclient = new GoogleImages(config.CSE_ID, config.API_KEY);
+   const imgclient = new GoogleImages(process.env.CSE_ID, process.env.API_KEY);
     
    let searchMessage = await msg.reply({embed: {
             color: 3447003,

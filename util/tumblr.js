@@ -13,10 +13,10 @@ async function image(config, client, message, args) {
         });
     
     var oauth = {
-      consumer_key: config.TUMBLR_CONS_KEY,
-      consumer_secret: config.TUMBLR_CONS_SECRET,
-      token: config.TUMBLR_TOKEN,
-      token_secret: config.TUMBLR_TOKEN_SECRET
+      consumer_key: process.env.TUMBLR_CONS_KEY,
+      consumer_secret: process.env.TUMBLR_CONS_SECRET,
+      token: process.env.TUMBLR_TOKEN,
+      token_secret: process.env.TUMBLR_TOKEN_SECRET
     };
     
     var blog;
@@ -68,10 +68,10 @@ async function video(config, client, message, args) {
         });
     
     var oauth = {
-      consumer_key: config.TUMBLR_CONS_KEY,
-      consumer_secret: config.TUMBLR_CONS_SECRET,
-      token: config.TUMBLR_TOKEN,
-      token_secret: config.TUMBLR_TOKEN_SECRET
+      consumer_key: process.env.TUMBLR_CONS_KEY,
+      consumer_secret: process.env.TUMBLR_CONS_SECRET,
+      token: process.env.TUMBLR_TOKEN,
+      token_secret: process.env.TUMBLR_TOKEN_SECRET
     };
     
     var blog;

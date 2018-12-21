@@ -22,9 +22,9 @@ async function find(config, client, message, args) {
     }
     var requestUrl;
     if(Math.round(Math.random()) == 1){
-       requestUrl = `https://api.edamam.com/search?q=${recipeQuery}&app_id=${config.RECIPE_ID_1}&app_key=${config.RECIPE_KEY_1}&from=0&to=25&calories=0-${calorieCount}`; 
+       requestUrl = `https://api.edamam.com/search?q=${recipeQuery}&app_id=${process.env.RECIPE_ID_1}&app_key=${process.env.RECIPE_KEY_1}&from=0&to=25&calories=0-${calorieCount}`; 
     }else{
-       requestUrl = `https://api.edamam.com/search?q=${recipeQuery}&app_id=${config.RECIPE_ID_2}&app_key=${config.RECIPE_KEY_2}&from=0&to=25&calories=0-${calorieCount}`;
+       requestUrl = `https://api.edamam.com/search?q=${recipeQuery}&app_id=${process.env.RECIPE_ID_2}&app_key=${process.env.RECIPE_KEY_2}&from=0&to=25&calories=0-${calorieCount}`;
     }
     
     var jsonObject;
