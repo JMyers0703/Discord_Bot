@@ -1,0 +1,29 @@
+{
+  "name": "Discord_Bot",
+  "version": "1.0.0",
+  "main": "bot.js",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.2",
+    "discord.js": "^11.3.2",
+    "dotenv": "^6.2.0",
+    "google": "^2.1.0",
+    "google-images": "^2.1.0",
+    "kraft-recipe-api": "^0.1.2",
+    "querystring": "^0.2.0",
+    "request": "^2.87.0",
+    "self-reload-json": "^0.4.0",
+    "snekfetch": "^4.0.4",
+    "tumblr": "^0.4.1",
+    "xmldom": "^0.1.27",
+    "xpath": "0.0.27",
+    "youtube-search": "^1.1.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "node build/bot.js",
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}

@@ -1,0 +1,6 @@
+var SelfReloadJSON = require('self-reload-json');
+const config = new SelfReloadJSON("./config.json");
+
+exports.run = (client) => {
+    client.login(config.token);
+}
